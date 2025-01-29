@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PAWQM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://cdn.rawgit.com/Mikhus/canvas-gauges/gh-pages/download/2.1.7/all/gauge.min.js"></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <h1> PAWMQ </h1>
+    </div>
+    
+    <div class="header">
+	<h1>Quality:</h1>
+	<br>
+	<h2> Excellent </h2>
+    </div>
+
+    <div class="content">
+      <div class="card-grid">
+        <div class="card">
+          <p class="card-title">pH</p>
+          <canvas id="gauge-pH"></canvas>
+        </div>
+        <div class="card">
+          <p class="card-title">Turbidity</p>
+          <canvas id="gauge-Turbidity"></canvas>
+        </div>
+<div class="card">
+          <p class="card-title">TDS</p>
+          <canvas id="gauge-TDS"></canvas>
+        </div>
+<div class="card">
+          <p class="card-title">Flow</p>
+          <canvas id="gauge-Flow"></canvas>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
